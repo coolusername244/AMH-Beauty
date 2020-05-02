@@ -1,0 +1,32 @@
+/*--------------------------------------------- Site Text */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/*--------------------------------------------- Background Colors */
+
+.bg-pink {
+    background: #ffdad9;
+}
+
+/*--------------------------------------------- Navbar */
+
+.logo {
+    max-height: 80px;
+    max-width: 80px;
+}
+
+/*--------------------------------------------- Text fonts/colors/sizes */
+
+body {
+    font-size: 1rem;
+}
+
+nav ul li a {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: lighter;
+
+}
