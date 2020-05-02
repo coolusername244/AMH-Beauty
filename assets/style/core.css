@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /*--------------------------------------------- Background Colors */
 
 .bg-pink {
@@ -12,6 +17,11 @@
 
 body {
     font-size: 1rem;
+}
+
+h6 {
+    font-family: "Playfair Display", sans-serif;
+    text-align: center;
 }
 
 /*--------------------------------------------- Navbar */
@@ -26,9 +36,7 @@ nav ul li a {
     font-size: 1.5rem;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-weight: lighter;
     text-align: center;
-
 }
 
 .navbar-toggler {
@@ -38,7 +46,7 @@ nav ul li a {
 
 /*--------------------------------------------- Navbar MEDIA */
 
-@media (min-width: 1024px){
+@media (min-width: 992px){
 .active {
     border-bottom: solid #000 1px;
 }
@@ -76,4 +84,31 @@ nav ul li a {
   right: 0;
 }
 /* --------- Copied from hover.css https://ianlunn.github.io/Hover/ */
+}
+
+/*--------------------------------------------- Footer */
+
+.footer-contents {
+    padding: 1rem;
+}
+
+.social-icon i {
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    height: 40px;
+    width: 40px;
+    padding-top: 8px;
+    border: #ffdad9 solid 1px;
+    border-radius: 50%;
+    background-color: #ffdad9;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-icon i:hover {
+    color: #000;
+    border: black solid 1px;
 }
