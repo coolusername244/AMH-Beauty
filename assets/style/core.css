@@ -7,7 +7,7 @@
 /*--------------------------------------------- Background Colors */
 
 .bg-pink {
-    background: #ffdad9;
+    background: #ffc0c0;
 }
 
 /*--------------------------------------------- Text fonts/colors/sizes */
@@ -16,6 +16,7 @@ body {
     font-size: 1rem;
     font-family: "Playfair Display", sans-serif;
 }
+
 
 /*--------------------------------------------- Navbar */
 
@@ -37,7 +38,9 @@ nav ul li a {
     color: rgba(0, 0, 0, 1);    
 }
 
-
+.navbar {
+    border-bottom: solid black 2px;
+}
 
 /*--------------------------------------------- Navbar MEDIA */
 
@@ -82,6 +85,10 @@ nav ul li a {
 }
 
 /*--------------------------------------------- Footer */
+
+footer {
+    border-top: solid black 2px;
+}
 
 .footer-contents {
     padding: 1rem;

@@ -1,5 +1,29 @@
 /*--------------------------------------------- carousel */
-
+section {
+    background-color: #ffdad9;
+    height: 100vh;
+}
 .carousel-item {
-    max-height: 600px;
+    max-height: 600px;    
+}
+
+.hero-carousel {
+    padding: 30px 0;
+}
+
+.carousel {
+    border: solid black 2px;
+}
+
+/*--------------------------------------------- button */
+
+.btn-cta {
+    background-color: #ffc0c0;
+    border: black solid 1px;
+    margin-bottom: 30px;
+}
+
+.btn-cta a {
+    color: black;
+    text-decoration: none;
 }
