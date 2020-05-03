@@ -2,10 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-body {
-    margin: 0;
-    padding: 0;
-}
+
 
 /*--------------------------------------------- Background Colors */
 
@@ -17,11 +14,7 @@ body {
 
 body {
     font-size: 1rem;
-}
-
-h6 {
     font-family: "Playfair Display", sans-serif;
-    text-align: center;
 }
 
 /*--------------------------------------------- Navbar */
@@ -43,6 +36,8 @@ nav ul li a {
     border: none;
     color: rgba(0, 0, 0, 1);    
 }
+
+
 
 /*--------------------------------------------- Navbar MEDIA */
 
