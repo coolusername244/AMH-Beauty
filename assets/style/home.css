@@ -1,19 +1,19 @@
-/*--------------------------------------------- carousel */
-section {
-    background-color: #ffdad9;
-    height: 100vh;
-}
-.carousel-item {
-    max-height: 600px;    
+
+
+
+.home-heading {
+    text-align: center;
 }
 
-.hero-carousel {
-    padding: 30px 0;
+.container-fluid {
+    padding: 1rem;
 }
 
-.carousel {
-    border: solid black 2px;
+.hero {
+    width: 100px;
+    height: auto;
 }
+
 
 /*--------------------------------------------- button */
 
@@ -27,3 +27,7 @@ section {
     color: black;
     text-decoration: none;
 }
+
+
+
+

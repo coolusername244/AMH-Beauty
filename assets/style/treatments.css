@@ -1,0 +1,16 @@
+/*--------------------------------------------- carousel */
+.treatment-section {
+    background-color: #FFFAFA;
+    height: 100vh;
+}
+.carousel-item {
+    max-height: 600px;    
+}
+
+.hero-carousel {
+    padding: 30px 0;
+}
+
+.carousel {
+    border: solid black 2px;
+}
