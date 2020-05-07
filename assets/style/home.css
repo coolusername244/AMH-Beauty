@@ -8,6 +8,7 @@
 
 .home-content {
     height: 100vh;
+    max-width: 100%;
 }
 
 /*----------------------------------- Homepage landing text */
@@ -15,20 +16,48 @@
     font-family: "Dancing Script", sans-serif;
     letter-spacing: 3px;
     text-align: center;
-    padding: 2rem;
+    
+    padding-top: 5rem;
 }
 
 /*----------------------------------- Homepage hero image */
 
 .hero-image {
     float: center;
-    max-width: 90%;
-    padding: 1em;
+    max-width: 100%;
+    padding: 2em 1rem 5rem 1rem;
 }
 
-/*----------------------------------- Homepage hero image */
+/*----------------------------------- Homepage button */
 
+.home-button a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+@media(max-width: 768px) {
 .home-button {
     background-color: #ffdad9;
     border: none;
+    align-content: center;
+    margin-top: 1rem;
+
+    }
+}
+
+@media(min-width: 993px) {
+.home-button {
+    
+    border: none;
+    align-content: center;
+    margin-top: 7rem;
+    }
+}
+
+button[type="button-explore"] {
+    width: 50%;
+    height: 5rem;
+    background-color: #ffdad9;
 }
