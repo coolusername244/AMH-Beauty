@@ -6,58 +6,109 @@
 
 /*----------------------------------- Homepage */
 
+@media(max-width: 768px){
 .home-content {
     height: 100vh;
+    }
+}
+
+@media(min-width: 769px) {
+.home-content {
+    height: 78vh;
     max-width: 100%;
+    }
+
 }
 
 /*----------------------------------- Homepage landing text */
+@media(max-width: 768px) {
 .home-heading {
     font-family: "Dancing Script", sans-serif;
     letter-spacing: 3px;
     text-align: center;
-    
-    padding-top: 5rem;
+    font-size: 2em;
+    padding: 4rem 0;
+    }
 }
 
+@media(min-width: 769px) {
+.home-heading {
+    font-family: "Dancing Script", sans-serif;
+    letter-spacing: 6px;
+    text-align: center;
+    font-size: 3em;
+    padding: 5rem 0;
+    }
+}
 /*----------------------------------- Homepage hero image */
 
 .hero-image {
     float: center;
     max-width: 100%;
-    padding: 2em 1rem 5rem 1rem;
+    border: 1px black solid;
+    margin: 2em 1rem 5rem 1rem;
 }
 
 /*----------------------------------- Homepage button */
 
-.home-button a {
+.home-button {
     color: #000;
     text-decoration: none;
+    background-color: #ffdad9;
+    letter-spacing: 5px;
 }
 
 
 
 @media(max-width: 768px) {
 .home-button {
-    background-color: #ffdad9;
     border: none;
     align-content: center;
-    margin-top: 1rem;
-
-    }
-}
-
-@media(min-width: 993px) {
-.home-button {
     
-    border: none;
-    align-content: center;
-    margin-top: 7rem;
+    text-transform: uppercase;
     }
 }
 
-button[type="button-explore"] {
-    width: 50%;
-    height: 5rem;
-    background-color: #ffdad9;
+@media(min-width: 769px) {
+.home-button {
+    border: none;
+    align-content: center;
+    text-transform: uppercase;
+    }
+
+
+@media(min-width: 769px) {
+.button-div {
+    margin-top: 3rem;
+    }
+}
+
+@media(max-width: 769px) {
+.button-div {
+    margin-top: 3rem;
+    }
+}
+
+.home-button:hover {
+    background-color: #ffc1c0;
+    color: black;
+}
+
+
+
+/* Copied from hover.css */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
