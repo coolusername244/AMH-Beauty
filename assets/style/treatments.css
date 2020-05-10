@@ -1,16 +1,27 @@
+/*--------------------------------------------- TREATMENTS specific CSS */
+
+
 /*--------------------------------------------- carousel */
-.treatment-section {
+#treatment-section {
     background-color: #FFFAFA;
-    height: 100vh;
-}
-.carousel-item {
-    max-height: 600px;    
 }
 
-.hero-carousel {
-    padding: 30px 0;
+.container-treatments {
+    padding: 2rem;
 }
 
 .carousel {
     border: solid black 2px;
+    max-width: 
+}
+
+.heading-text {
+    font-family: "Playfair Display", sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 1rem 0 3rem 0;
+    text-decoration: underline;
+    line-height: 2px;
 }
