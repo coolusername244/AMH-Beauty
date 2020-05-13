@@ -47,15 +47,58 @@
 <!--NAVBAR END-->
 <!--PAGE HEADING-->
 <section id="treatment-section">
+
+<div class="row">
+    <div class="col-12">
+        <h3 class="heading-text">Treatments</h3>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="treatment-container">
+            <h4 class="treatment-header">None Needle Lip Filler</h4>
+            <img class="treatment-image" src="assets/images/lips.png" alt="lips">
+            <h5 class="treatment-text">£29.99</h5>
+            <a href="#booking-form" class="btn btn-booking">book now!</a>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="treatment-container">
+            <h4 class="treatment-header">HD Brows</h4>
+            <img class="treatment-image" src="assets/images/female_brows_and_lashes.png" alt="lips">
+            <h5 class="treatment-text">£29.99</h5>
+            <a href="#booking-form" class="btn btn-booking">book now!</a>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="treatment-container">
+            <h4 class="treatment-header">Eyelash extension</h4>
+            <img class="treatment-image" src="assets/images/eyelash.png" alt="lips">
+            <h5 class="treatment-text">£29.99</h5>
+            <a href="#booking-form" class="btn btn-booking">book now!</a>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="treatment-container">
+            <h4 class="treatment-header">Facial Threading</h4>
+            <img class="treatment-image" src="assets/images/man_brows.png" alt="lips">
+            <h5 class="treatment-text">£29.99</h5>
+            <a href="#booking-form" class="btn btn-booking">book now!</a>
+        </div>
+    </div>
+    <div class="col">
+        <div class="treatment-container">
+            <h4 class="treatment-header">Other treatments</h4>
+        </div>
+    </div>
+</div>
 <!--TREATMENT CAROUSEL-->
 <div class="container container-treatments">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="../assets/images/female_brows.png" alt="Second slide">
+                <img class="d-block w-100" src="../assets/images/female_brows.png" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../assets/images/female_brows_and_lashes.png" alt="First slide">
+                <img class="d-block w-100" src="../assets/images/female_brows_and_lashes.png" alt="Second slide">
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="../assets/images/man_brows.png" alt="Third slide">
@@ -71,44 +114,40 @@
             </a>
     </div>
 </div>
-
-<div class="row">
-    <div class="col-12">
-        <h3 class="heading-text">Treatments</h3>
-    </div>
-    <div class="col-sm-12 col-md-6 col-lg-6">
-        <div class="treatment-container">
-            <h4 class="treatment-header">None Needle Lip Filler</h4>
-            <img class="treatment-image" src="assets/images/lips.png" alt="lips">
-        </div>
-    </div>
-    <div class="col-sm-12 col-md-6 col-lg-6">
-        <div class="treatment-container">
-            <h4 class="treatment-header">HD Brows</h4>
-            <img class="treatment-image" src="assets/images/female_brows_and_lashes.png" alt="lips">
-        </div>
-    </div>
-    <div class="col-sm-12 col-md-6 col-lg-6">
-        <div class="treatment-container">
-            <h4 class="treatment-header">Eyelash extension</h4>
-            <img class="treatment-image" src="assets/images/lips.png" alt="lips">
-        </div>
-    </div>
-    <div class="col-sm-12 col-md-6 col-lg-6">
-        <div class="treatment-container">
-            <h4 class="treatment-header">Facial Threading</h4>
-            <img class="treatment-image" src="assets/images/lips.png" alt="lips">
-        </div>
-    </div>
-    <div class="col">
-        <div class="treatment-container">
-            <h4 class="treatment-header">Other treatments</h4>
-        </div>
-    </div>
-</div>
-
-
 <!--TREATMENT CAROUSEL END-->
+<!--BOOKING FORM-->
+<form id="booking-form">
+ <h3 class="heading-text">booking form</h3>
+
+  <div class="form-group">
+    <label for="name">Full Name</label>
+    <input type="text" class="form-control" id="name" placeholder="Enter full name">
+  </div>
+
+  <div class="form-group">
+   
+    <label for="emailaddress">Email address</label>
+    <input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp" placeholder="Enter email">
+    
+  </div>
+  <div class="form-group">
+    <label for="mobile">Mobile Number</label>
+    <input type="text" class="form-control" id="mobile" placeholder="Enter contact number">
+  </div>
+    <div class="form-group">
+    <label for="select-treatment">Treatment</label>
+    <select class="form-control" id="select-treatment">
+    <option>select</option>
+      <option>Non Needle Lip Filler</option>
+      <option>HD Brows</option>
+      <option>Eyelash Extension</option>
+      <option>Facial Threading</option>
+      <option>Brow Lamination</option>
+      <option>Mesotherapy</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 </section>
 <!--FOOTER-->
 	<footer class="bg-pink container-fluid">

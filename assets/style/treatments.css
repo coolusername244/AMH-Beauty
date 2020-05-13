@@ -21,7 +21,7 @@
     letter-spacing: 3px;
     font-size: 2em;
     text-transform: uppercase;
-    padding: 1rem 0 3rem 0;
+    margin: 3rem 0 3rem 0;
     text-decoration: underline;
     line-height: 2px;
 }
@@ -37,12 +37,38 @@
 .treatment-container {
     background-color: rgba(255,218,217, .3);
     margin: 2rem 2rem 2rem 2rem;
-    border: solid 1px #000
+    border: solid 1px #000;
+    text-align: center;
+  /*  min-height: 40vh; */
 }
+
+
 
 .treatment-image {
     max-width: 80%;
-    min-height: 80%;
-    margin: 5% 10% 10% 10%;
+   /* min-height: 40%; */
+    margin: 5% 10% 5% 10%;
     border: solid 1px #000;
+}
+
+.treatment-text {
+    font-size: 1.5rem;
+}
+
+.form-group {
+    margin: 0 7rem;
+}
+
+/* @media for form group on mobile */
+
+.btn-booking {
+    color: #000;
+    margin: 1.5rem 0;
+    background: #ffdad9;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-booking:hover {
+    color: #000;
 }
