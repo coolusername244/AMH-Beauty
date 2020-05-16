@@ -43,9 +43,9 @@
 }
 
 
-@media (max-width: 576px){
+@media (max-width: 768px){
    .treatment-image {
-    max-width: 80%;
+    max-height: 10rem;
     height: 10rem;
     margin: 5% 10% 5% 10%;
     border: solid 1px #000;
@@ -64,8 +64,20 @@
     font-size: 1.5rem;
 }
 
+.other-treatments {
+    padding: 1rem;
+}
+.other-treatments li  {
+    list-style: none;
+    text-align: center;
+}
+
+.other-treatments li p {
+    text-transform: capitalize;
+}
+
 .form-group {
-    margin: 0 7rem;
+    margin: 0 20%;
 }
 
 /* @media for form group on mobile */
