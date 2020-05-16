@@ -39,14 +39,23 @@
     margin: 2rem 2rem 2rem 2rem;
     border: solid 1px #000;
     text-align: center;
-  /*  min-height: 40vh; */
+    height: 90%;
 }
 
+
+@media (max-width: 576px){
+   .treatment-image {
+    max-width: 80%;
+    height: 10rem;
+    margin: 5% 10% 5% 10%;
+    border: solid 1px #000;
+} 
+}
 
 
 .treatment-image {
     max-width: 80%;
-   /* min-height: 40%; */
+    height: 15rem;
     margin: 5% 10% 5% 10%;
     border: solid 1px #000;
 }
