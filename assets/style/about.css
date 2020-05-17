@@ -1,0 +1,20 @@
+.about-image {
+    max-width: 80%;
+    margin: 5% 10%; 
+    
+    border: solid 2px #000;
+
+}
+
+.about-header {
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 2rem;
+    text-decoration: underline;
+    
+}
+
+.about-text p {
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
