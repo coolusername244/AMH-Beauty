@@ -43,7 +43,7 @@
 	</nav>
 
 <!--NAVBAR END-->
-<section id="treatment-section">
+<section class="container-fluid" id="treatment-section">
 <!--TREATMENTS-->
 <div class="row">
     <div class="col-sm-12 col-md-6 col-lg-6">
@@ -167,10 +167,32 @@
         </select>
   </div>
   <div class="d-flex justify-content-center">
-    <button type="submit" class="btn btn-booking justify-content-center">Submit</button>
-</div>
+<!--MODAL BUTTON-->
+    <button type="button" class="btn btn-booking justify-content-center" data-toggle="modal" data-target="#exampleModal">
+        submit
+    </button>
+    </div>
 </form>
-</section>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h5 class="modal-title">thank you for your booking!</h5>
+            </div>
+        <div class="modal-body">
+            <p>you will shortly recieve an email confirming your booking</p>
+
+        </div>
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn btn-booking" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+</section> 
 <!--FOOTER-->
 	<footer class="bg-pink container-fluid">
 		<div class="d-flex flex-row justify-content-around footer-contents">

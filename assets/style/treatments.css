@@ -95,3 +95,16 @@
     color: #000;
     background: #ffc1c0;
 }
+
+
+.modal-title {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.modal-body p {
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 1rem;
+    text-transform: uppercase;
+}
