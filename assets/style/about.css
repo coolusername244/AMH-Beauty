@@ -1,10 +1,11 @@
 .about {    
     background-color: #FFFAFA;
+    min-height: 100vh;
 }
 
 .about-image {
     max-width: 80%;
-   
+    min-height: 86%;
     margin: 7%;  
     border: solid 2px #000;
 
