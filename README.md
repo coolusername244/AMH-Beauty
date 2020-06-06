@@ -32,7 +32,9 @@ on a page dedicated to beauty treatments.
 
 - Explore Button 
 
-   -
+   - The Explore Button is our home page call-to-action. Upon being clicked, you will be directed to the to the TREATMENTS page. 
+
+   - The Explore Button has been achieved by using Bootstraps .btn class within the 'a' attribute, as seen [here](https://www.w3schools.com/bootstrap/bootstrap_buttons.asp).
 
 - Footer Links
 
