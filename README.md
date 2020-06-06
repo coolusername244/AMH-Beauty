@@ -1,5 +1,5 @@
 # AMH Beauty
- A website designed for a friend of mine, Ashleigh Hocking
+
 
 Ashleigh is a fully qualified and practicing beautician with many treatments to offer.
 This website is designed to showcase some off Ashleighs work in the form of a 'Treatments'
@@ -38,53 +38,63 @@ on a page dedicated to beauty treatments.
 
 - Footer Links
 
-   -
+   - The footer contains fully functioning links to the AMH Beauty Facebook and Instagram pages and a booking email template. The icons have been taken from [Font Awesome](https://fontawesome.com/).
 
 - Treatments showcased
 
-   -
+   - These are the most popular sellers for AMH Beauty and have therefore been showcased with their own sections dedicated to displaying the image for users of the quality of her work. 
+
+   - The sections also contain the pricing and buttons that will take them to the booking form. 
 
 - Bootstrap Carousel 
 
-   -
+   - The carousel has been added to add more impact on to viewers who are intrested in the detail of the work and are even greeted by a male pictured in Ashleighs work.
+
+   - The code for the carousel was taken from Bootstrap and can be viewed [here](https://getbootstrap.com/docs/4.0/components/carousel/)
 
 - Booking Form 
 
-   - required attribute
+   - Here, users are able to book their desired treatment from a drop down selection menu and are also clearly informed that they will need to fill out their details in the other fields with placeholder text.
 
-- Logo to INDEX
+   - All fields on the form have the required attribute meaning the user will not be able to submit the form with missing data.
 
-   -
 
 ## Technologies Used
 ---
 - HTML5
 
-   -
+   - Used to add and structure content
 
 - CSS
 
-   -
+   - Used to style content
 
 - Bootstrap 
 
-   -
+   - Used for aid in structuring code and adding in pre-existing templates for Navbar, carousel and booking form.
+
+   - I also took full advantage of bootstraps grid system to enable smoother transitions across multiple devices widths.
 
 - Font Awesome 
 
-   -
+   - I have used 3 icons from Font Awesome for links in the footer of the page. 
 
 - Google Fonts 
 
-   -
+   - the google fonts that were used are as listed below:
+   
+        Playfair Display
 
-- jQuery 
+        https://fonts.google.com/specimen/Playfair+Display?query=playfair
+   
+        Dancing Script
 
-   -
+        https://fonts.google.com/specimen/Dancing+Script?query=dancing
+
 
 - Google Chrome Developer Tools
 
-   -
+   - Google Chrome Developer Tools were used throughout the process as an aid to make ure that all changes that were being implimented, worked properly. Also to test responsiveness on other device sizes. 
 
 - HMTL Validator 
 
