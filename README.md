@@ -98,11 +98,14 @@ on a page dedicated to beauty treatments.
 
 - HMTL Validator 
 
-   -
+   - ![html validator check](assets/images/AMH_Beauty_htmlvalidator.png "HTML Validator Check")
+
 
 - CSS Validator
 
-   -
+   - CSS Validator was used here also, but as you can see below, the resulting errors are due to the Bootstrap URI.
+
+   - ![css validator check](assets/images/css_validator.png)
 
 - balsamiq
 
