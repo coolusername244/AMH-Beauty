@@ -24,7 +24,11 @@ on a page dedicated to beauty treatments.
 
 - Bootstrap Navbar
 
-   - 
+   - To allow for effortless navivation through the pages, i added bootstraps navbar which can be found [here](https://getbootstrap.com/docs/4.0/components/navbar/).
+
+   - The navbar contains 3 links on mobile display (HOME/TREATMENTS/ABOUT) and 4 links on desktop view (previous 3 plus business logo directing back to HOME).  
+
+   - When the navbar is being displayed on screens less than 992px in width, its collapses into a dropdown menu which is activated and expanded when pressing the burger icon in the top right. 
 
 - Explore Button 
 
