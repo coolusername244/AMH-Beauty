@@ -98,26 +98,60 @@ on a page dedicated to beauty treatments.
 
 - HMTL Validator 
 
-   - ![html validator check](assets/images/AMH_Beauty_htmlvalidator.png "HTML Validator Check")
+  ![html validator check](assets/images/AMH_Beauty_htmlvalidator.png "HTML Validator Check")
 
 
 - CSS Validator
 
-   - CSS Validator was used here also, but as you can see below, the resulting errors are due to the Bootstrap URI.
+    - CSS Validator was used here also, but as you can see below, the resulting errors are due to the Bootstrap URI.
 
-   - ![css validator check](assets/images/css_validator.png)
+   ![css validator check](assets/images/css_validator.png)
 
-- balsamiq
+- Balsamiq
 
-   -
+   - Through using Balsamiq, these are the wireframes that I created:
+
+   ![wireframe1](assets/wireframes/wireframe1.png)
+   ![wireframe2](assets/wireframes/wireframe2.png)
+   ![wireframe3](assets/wireframes/wireframe3.png)
+   ![wireframe4](assets/wireframes/wireframe4.png)
+   ![wireframe5](assets/wireframes/wireframe5.png)
+   ![wireframe6](assets/wireframes/wireframe6.png)
+   ![wireframe7](assets/wireframes/wireframe7.png)
 
 - BrowserStack
 
-   -
+   - See below.
 
 ## Testing
----
 
+- BrowserStack
+
+   - With the use of Browserstack, I have been able to see how compatible the site is on various internet applications, the ones that have been tested are:
+    
+    Microsoft Edge
+
+    ![microsoft edge](assets/browserstack/microsoftedge.png)
+
+    Safari
+
+    ![safari](assets/browserstack/Safari.png)
+
+    Firefox
+
+    ![firefox](assets/browserstack/Firefox.png)
+
+    Opera
+
+    ![opera](assets/browserstack/Opera.png)
+
+    Google Chrome
+
+    ![google chrome](assets/browserstack/googlechrome.png)
+
+    Internet Explorer
+
+    ![internet explorer](assets/browserstack/internetexplorer.png)
 
 ## Deployment
 ---
