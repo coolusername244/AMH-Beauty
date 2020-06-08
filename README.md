@@ -153,6 +153,22 @@ on a page dedicated to beauty treatments.
 
     ![internet explorer](assets/browserstack/internetexplorer.png)
 
+    All pages followed the same procedure:
+
+    1 - Click explore
+
+    2 - Click all 'book now' buttons, testing links to the booking form work
+    
+    3 - Try to submit booking form with data missing
+
+    4 - Hover over each link in navbar to see if hover attribute works
+
+    5 - Click on footer links to external sites, making sure that new windows are opened
+
+    6 - Verify ABOUT.html social links work
+
+    All tests passed on each browser. 
+
 ## Deployment
 ---
 
