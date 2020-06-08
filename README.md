@@ -6,6 +6,8 @@ This website is designed to showcase some off Ashleighs work in the form of a 'T
 section while also having an area dedicated to infomation about herself and links to constantly
 updating social media. 
 
+The live site can be viewed by clicking [here](https://coolusername244.github.io/MS1/).
+
 ## UX
 ---
 This webpage is primarly targeted to a female audience while also allowing the involvement
@@ -169,8 +171,30 @@ on a page dedicated to beauty treatments.
 
     All tests passed on each browser. 
 
+- Google Chrome Developer Tools
+
+    This played a crutial part in the testing process as it was constantly being used when adding any new feature to the page, especially when they are positioned differently on different devices, as seen below:
+
+    ![iphone](assets/mobile/iphone.png)
+
+    ![ipad](assets/mobile/ipad.png)
+
+
+- Friends and Family
+
+    When the webpage was nearlng completion, I decided to deploy the site so that a few of my 
+    friends and family could try out the website and were asked give me feedback on how easy the site was to navigate,
+    understand and if they were able to find any bugs. 
+
+I also used the webpage on my own phone to get a real handheld feel of how the website is displayed to mobile viewers.
+
+
 ## Deployment
 ---
+
+To deploy this site, I used GitHub pages.
+
+
 
 ## Credits
 ---
@@ -183,14 +207,5 @@ on a page dedicated to beauty treatments.
 
 ### Acknowledgements
 
--
----
----
----
----
----
----
----
----
----
-links to wireframe pdfs - put the pdfs in the assets folder
+- 
+
