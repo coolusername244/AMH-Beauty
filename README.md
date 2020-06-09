@@ -194,18 +194,33 @@ I also used the webpage on my own phone to get a real handheld feel of how the w
 
 To deploy this site, I used GitHub pages.
 
+With my documents stored in a [repository](https://github.com/coolusername244/MS1) in GitHub, went into the settings by clicking the settings icon in the top right of the screen.
+Towards the bottom of the page, under 'GitHub Pages', I changed the source to the master branch, as seen below:
+
+![github pages](assets/screenshots/githubpages.png)
+
+Live link - https://coolusername244.github.io/MS1/
+
 
 
 ## Credits
 ---
 ### Content
-- All text written on ABOUT.html was authored by Ashleigh Hocking
-- All prices are true according to AMH Beauty price lists ( 01/06/2020 )
+- **Navbar** - This was taken from [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/) and styled to suit.
+- **Carousel** - This was taken from [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel/) and styled to suit.
+- **Booking Form** - This was taken from [Bootstrap](https://getbootstrap.com/docs/4.0/components/forms/)  and styled to suit.
+
 ### Media
 - All photos were taken and are owned by Ashleigh Hocking of AMH Beauty
 - The AMH Beauty logo was designed by Ashleigh Hocking
+- All text written on ABOUT.html was authored by Ashleigh Hocking
+- All prices are true according to AMH Beauty price lists ( 06/2020 )
 
 ### Acknowledgements
 
-- 
+With all of this being something i'd never even thought i'd be doing at the beginning of 2020, my wife's continued support to try something new while has made it all possible.
+
+[Stackoverflow](https://stackoverflow.com/) has been there for me (and what seems like countless others) during times of need.
+
+Another big help would be the likes of [YouTube](https://youtube.com), Code Institute Slack channels, my mentor, Gerry and my friends for reminding me that hard work always pays off.
 
