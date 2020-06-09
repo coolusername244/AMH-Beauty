@@ -19,7 +19,10 @@ Ashleighs work.
 With the presentation of the hero image, the selected fonts, text, colour scheme and logo, users get a clear indication that they are
 on a page dedicated to beauty treatments.
 
----About button--- 
+
+Throughout the page, users are guided effortlessly to where ever they want to go, each treatment has its own button that will take you straight to the booking form, which you will not be able to send without having all the required infomation.
+
+Users are also guided to AMH Beauty social media accounts with links in the footer of the page and also on ABOUT.html.
 
 ## Features
 ---
@@ -218,7 +221,7 @@ Live link - https://coolusername244.github.io/MS1/
 
 ### Acknowledgements
 
-With all of this being something i'd never even thought i'd be doing at the beginning of 2020, my wife's continued support to try something new while has made it all possible.
+With all of this being something i'd never even thought i'd be doing at the beginning of 2020, my wife's continued support has made it all possible.
 
 [Stackoverflow](https://stackoverflow.com/) has been there for me (and what seems like countless others) during times of need.
 
